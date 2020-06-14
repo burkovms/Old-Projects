@@ -1,0 +1,120 @@
+/*-------------------- FONTS --------------------*/
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/circularstd-book.woff2') format('woff2'),
+	url('../fonts/circularstd-book.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/circularstd-bold.woff2') format('woff2'),
+	url('../fonts/circularstd-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/circularstd-medium.woff2') format('woff2'),
+	url('../fonts/circularstd-medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*-------------------- DEFAULT STYLES --------------------*/
+*::selection{
+	background: 0 0;
+	color: $accent_color;
+}
+.btn{
+	span{
+		pointer-events: none;
+	}
+	span::selection{
+		background: $accent_color;
+		color: #fff;
+	}
+}
+body{
+	color: $primary_color;
+	line-height: 2.25;
+	font-size: 16px;
+	font-family: $font_family;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	font-weight: 400;
+	background: $bg_color;
+	&.no-scroll{
+		overflow: hidden;
+	}
+}
+
+.cite{
+	position: relative;
+	overflow: hidden;
+}
+
+a{
+	color: $title_color;
+	&:hover{
+		color: $accent_color;
+	}
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+	color: $title_color;
+	a{
+		color: $title_color;
+		&:hover{
+			color: $accent_color;
+		}
+	}
+}
+h2{
+	font-size: 36px;
+	line-height: 1.35;
+	&.title{
+		position: relative;
+		text-align: center;
+		padding-bottom: 26px;
+		margin-bottom: 20px;
+		&:before{
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: $title_color;
+			width: 36px;
+			height: 1px;
+		}
+	}
+	&.title-left{
+		text-align: left;
+		&:before{
+			left: 0;
+			transform: none;
+		}
+	}
+}
+h5{
+	font-size: 24px;
+	line-height: 1.5;
+}
+h6{
+	font-size: 18px;
+}
+.title-slogan{
+	margin-bottom: 5px;
+	text-align: center;
+	display: block;
+	font-weight: 400;
+	color: $accent_color;
+	font-family: $font_family_secondary;
+}

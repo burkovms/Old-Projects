@@ -1,0 +1,97 @@
+/*-------------------- FONTS --------------------*/
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/circularstd-book.woff2') format('woff2'),
+	url('../fonts/circularstd-book.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/circularstd-bold.woff2') format('woff2'),
+	url('../fonts/circularstd-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/circularstd-medium.woff2') format('woff2'),
+	url('../fonts/circularstd-medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/*-------------------- DEFAULT STYLES --------------------*/
+*::selection{
+	background: $accent_color;
+	color: #fff;
+}
+body{
+	color: $primary_color;
+	line-height: 1.93;
+	font-size: 14px;
+	font-family: $font_family;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	font-weight: 400;
+	&.no-scroll{
+		overflow: hidden;
+	}
+}
+
+.cite{
+	position: relative;
+	overflow: hidden;
+}
+
+a{
+	color: $title_color;
+	&:hover{
+		color: $accent_color;
+	}
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+	color: $title_color;
+	a{
+		color: $title_color;
+		&:hover{
+			color: $accent_color;
+		}
+	}
+}
+h2{
+	font-size: 36px;
+	line-height: 1.35;
+	&.title{
+		position: relative;
+		text-align: center;
+		padding-top: 26px;
+		margin-bottom: 20px;
+		&:before{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: $title_color;
+			width: 71px;
+			height: 3px;
+		}
+	}
+	&.title-left{
+		text-align: left;
+		&:before{
+			left: 0;
+			transform: none;
+		}
+	}
+}
+h5{
+	font-size: 18px;
+	line-height: 1.5;
+}
