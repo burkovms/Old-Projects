@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="format-detection" content="telephone=no">
+		<meta content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width" name="viewport">
+		<link rel="shortcut icon" href="img/favicon.png">
+		<!-- STYLES	-->
+		<link rel="stylesheet" href="css/slick.min.css">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<!-- overflow -->
+	<body class="overflow">
+		<!-- nav menu -->
+		<div class="nav-wrap">
+			<div class="nav-cover">
+				<div class="nav-btn-close"></div>
+				<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+				<nav class="nav-menu">
+					<ul class="nav-list">
+						<li><a href="actions.html"><span>Акции</span></a></li>
+						<li><a href="programms.html"><span>Программы</span></a></li>
+						<li><a href="tariffs.html"><span>Тарифы</span></a></li>
+						<li><a href="schedule.html"><span>Расписание занятий</span></a></li>
+						<li><a href="about.html"><span>О клубе</span></a></li>
+						<li><a href="partners.html"><span>Партнёры и тренеры</span></a></li>
+						<li><a href="contacts.html"><span>Контакты</span></a></li>
+					</ul>
+				</nav>
+				<a class="menu-phone" href="tel:88006655433">8 800 665-54-33</a>
+				<a href="#" class="popup-open menu-btn" rel="action1">
+					<span class="btn-img">
+						<img src="img/nav-btn.png" alt="">
+					</span>
+					<p>включайся</p>
+				</a>
+			</div>
+		</div>
+		<div class="nav-btn-wrap">
+			<a href="#" class="nav-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+			<a href="index.html" class="logo-mobile"><img src="img/logo-mobile.svg" alt=""></a>
+			<div class="nav-btn-info">
+				<a class="phone-mobile" href="tel:88006655433">8 800 665-54-33</a>
+				<a href="#" class="popup-open mobile-btn-popup" rel="action1">включайся</a>
+			</div>
+		</div>
+		<!-- preloader -->
+		<section class="preloader active">
+			<div class="preloader-img active" style="background-image: url(img/loader_pic.jpg);"></div>
+			<div class="preloader-item">
+				<svg viewBox="0 0 69 129" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0 101.05V121.552C0 125.659 3.35081 129 7.46925 129H61.5308C65.6492 129 69 125.659 69 121.552V101.05H0Z" fill="#1CC27C"/>
+					<path id="preloader-opacity" d="M69 96.75V16.0476C69 11.9411 65.6492 8.6 61.5308 8.6H47.4375V0H21.5625V8.6H7.46925C3.35081 8.6 0 11.9411 0 16.0476V96.75H69ZM4.3125 16.0476C4.3125 14.3104 5.727 12.9 7.46925 12.9H61.5308C63.273 12.9 64.6875 14.3104 64.6875 16.0476V66.65H4.3125V16.0476Z" fill="#1CC27C"/>
+				</svg>
+				<p class="preloader-text">Зарядись энергией</p>
+				<span class="charge"><i data-num="100"></i>%</span>
+			</div>
+			<a href="#main" class="mous-btn active"><img src="img/mouse.png" alt=""></a>
+			<ul class="preloader-wrap">
+				<li>=ъ
+					<span><img src="img/ellipse.png" alt="">Стресс</span>
+				</li>
+				<li>
+					<span><img src="img/ellipse.png" alt="">Усталость</span>
+				</li>
+				<li>
+					<span><img src="img/ellipse.png" alt="">Напряжение</span>
+				</li>
+			</ul>
+		</section>
+		<!-- main -->
+		<section id="main" class="main" style="background-image: url(img/bg-main.jpg);">
+			<span class="main-logo"><img src="img/logo.png" alt=""></span>
+			<h1>Избавься от стресса и усталости</h1>
+			<p>за 30 минут</p>
+		</section>
+		<!-- directions -->
+		<section class="directions">
+			<div class="directions-one-wrap dir-wrap">
+				<span class="section-name">Направления</span>
+				<div class="directions-one directions-slider">
+					<div class="direction-slide-one">
+						<div class="direction-cover">
+							<div class="direction-info">
+								<h2>У тебя стресс?</h2>
+								<p class="slogan">Стресс снимают силовые и танцевальные тренировки</p>
+								<div class="direction-bottom">
+									<h6>Что это такое</h6>
+									<p class="direction-text">Высокоинтенсивные тренировки с использованием собственного веса и оборудования и EMS.</p>
+								</div>
+							</div>
+							<img class="direct-img" src="img/direct-1-1.png" alt="">
+						</div>
+					</div>
+					<div class="direction-slide-one">
+						<div class="direction-cover">
+							<div class="direction-info">
+								<h2>У тебя стресс?</h2>
+								<p class="slogan">Стресс снимают силовые и танцевальные тренировки</p>
+								<div class="direction-bottom">
+									<h6>Что это такое</h6>
+									<p class="direction-text">Танцевальные тренировки построенные на чередовании интервалов частоты пульса.</p>
+								</div>
+							</div>
+							<img class="direct-img" src="img/direct-1-2.png" alt="">
+						</div>
+					</div>
+					<div class="direction-slide-one">
+						<div class="direction-cover">
+							<div class="direction-info">
+								<h2>У тебя стресс?</h2>
+								<p class="slogan">Стресс снимают силовые и танцевальные тренировки</p>
+								<div class="direction-bottom">
+									<h6>Что это такое</h6>
+									<p class="direction-text">Танцевально-двигательные тренировки по методикам свободного движения (5 ритмов, Лабан)</p>
+								</div>
+							</div>
+							<img class="direct-img" src="img/direct-1-3.png" alt="">
+						</div>
+					</div>
+					<div class="direction-slide-one">
+						<div class="direction-cover">
+							<div class="direction-info">
+								<h2>У тебя стресс?</h2>
+								<p class="slogan">Стресс снимают силовые и танцевальные тренировки</p>
+								<div class="direction-bottom">
+									<h6>Что это такое</h6>
+									<p class="direction-text">Стрейч-направления. Комплексы упражнений на базе: силовой растяжки; танцевальной хореографии; растяжка на базе йоги.</p>
+								</div>
+							</div>
+							<img class="direct-img" src="img/direct-1-4.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="directions-two-wrap dir-wrap">
+				<span class="section-name">Направления</span>
+				<div class="directions-two directions-slider">
+					<div class="direction-slide-two">
+						<div class="direction-cover">
+							<div class="direction-info">
+								<h2>Напряжён и чувствуешь усталость?</h2>
+								<p class="slogan">Получи релакс и короткий сон</p>
+								<div class="direction-bottom">
+									<h6>Что это такое</h6>
+									<p class="direction-text">Аудио-методики короткого эффективного дневного сна</p>
+								</div>
+							</div>
+							<img class="direct-img" src="img/direct-2-1.png" alt="">
+						</div>
+					</div>
+					<div class="direction-slide-two">
+						<div class="direction-cover">
+							<div class="direction-info">
+								<h2>Напряжён и чувствуешь усталость?</h2>
+								<p class="slogan">Получи релакс и короткий сон</p>
+								<div class="direction-bottom">
+									<h6>Что это такое</h6>
+									<p class="direction-text">Релаксационные и гипномедитации для снятия стресса.</p>
+								</div>
+							</div>
+							<img class="direct-img" src="img/direct-2-2.png" alt="">
+						</div>
+					</div>
+					<div class="direction-slide-two">
+						<div class="direction-cover">
+							<div class="direction-info">
+								<h2>Напряжён и чувствуешь усталость?</h2>
+								<p class="slogan">Получи релакс и короткий сон</p>
+								<div class="direction-bottom">
+									<h6>Что это такое</h6>
+									<p class="direction-text">Короткий отдых в галокамере, позволяющий не только расслабиться, но и повысить иммунитет, избавиться от головных болей, снизить риск респираторных заболеваний.</p>
+								</div>
+							</div>
+							<img class="direct-img" src="img/direct-2-3.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="directions-tree-wrap dir-wrap">
+				<span class="section-name">Направления</span>
+				<div class="directions-tree directions-slider">
+					<div class="direction-slide-tree">
+						<div class="direction-cover">
+							<div class="direction-info">
+								<h2>Хочешь просто расслабиться?</h2>
+								<p class="slogan">Попробуй боди майнд и медитацию</p>
+								<div class="direction-bottom">
+									<h6>Что это такое</h6>
+									<p class="direction-text">Восточные практики. Тренировки на базе хатха и айенгара йоги.</p>
+								</div>
+							</div>
+							<img class="direct-img" src="img/direct-3-1.png" alt="">
+						</div>
+					</div>
+					<div class="direction-slide-tree">
+						<div class="direction-cover">
+							<div class="direction-info">
+								<h2>Хочешь просто расслабиться?</h2>
+								<p class="slogan">Попробуй боди майнд и медитацию</p>
+								<div class="direction-bottom">
+									<h6>Что это такое</h6>
+									<p class="direction-text">Антигравити-йога. Йога в гамаках с уменьшенной нагрузкой на позвоночник.</p>
+								</div>
+							</div>
+							<img class="direct-img" src="img/direct-3-2.png" alt="">
+						</div>
+					</div>
+					<div class="direction-slide-tree">
+						<div class="direction-cover">
+							<div class="direction-info">
+								<h2>Хочешь просто расслабиться?</h2>
+								<p class="slogan">Попробуй боди майнд и медитацию</p>
+								<div class="direction-bottom">
+									<h6>Что это такое</h6>
+									<p class="direction-text">Классическая йога. комплексы упражнений на базе классических, восточных мужских и женских практик (ошо, цигун)</p>
+								</div>
+							</div>
+							<img class="direct-img" src="img/direct-3-3.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- advantages -->
+		<section class="advantages advantages-main">
+			<span class="section-name">Преимущества</span>
+			<div class="advantages-cover">
+				<h2>Создай свою уникальную программу</h2>
+				<ul class="advantages-wrap">
+					<li class="item1 active">
+						<div class="advantage-info">
+							<span class="number">01</span>
+							<h6>Можно посещать <span>любую программу</span> в удобное время</h6>
+							<p>Получи гибкую программу, которая подстраивается под твои нужды и настроение.</p>
+						</div>
+						<img src="img/advantage-1.png" alt="">
+					</li>
+					<li class="item2">
+						<div class="advantage-info">
+							<span class="number">02</span>
+							<h6>30 минутного занятия <span>недостаточно?</span></h6>
+							<p>Добейся максимальной эффективности комбинируя занятия по 30 минут в серьёзную часовую нагрузку.</p>
+						</div>
+						<img src="img/advantage-2.png" alt="">
+					</li>
+					<li class="item3">
+						<div class="advantage-info">
+							<span class="number">03</span>
+							<h6>посещай программы <br><span>не переодеваясь</span></h6>
+							<p>Для посещения некоторых программ не потребуется специальная форма. Только присутствие и настрой.</p>
+						</div>
+						<img src="img/advantage-3.png" alt="">
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- about-main -->
+		<section class="about-main">
+			<span class="section-name">О студии</span>
+			<div class="about-slider-for">
+				<div class="about-slide-for">
+					<span class="about-slide-bg" style="background-image: url(img/photo_studia.jpg);"></span>
+					<span class="about-photo" style="background-image: url(img/photo-about.png);"></span>
+					<div class="about-info">
+						<div class="name">Дэвид стэтхэм</div>
+						<div class="prof">Актёр</div>
+						<p>Медитация очень важное занятие в жизни. Если вы ещё не задумывались об этом, вы зря тратите время!</p>
+					</div>
+				</div>
+				<div class="about-slide-for">
+					<span class="about-slide-bg" style="background-image: url(img/bg-bottom.jpg);"></span>
+					<span class="about-photo" style="background-image: url(img/photo-about.png);"></span>
+					<div class="about-info">
+						<div class="name">Дэвид стэтхэм</div>
+						<div class="prof">Актёр</div>
+						<p>Медитация очень важное занятие в жизни. Если вы ещё не задумывались об этом, вы зря тратите время!</p>
+					</div>
+				</div>
+				<div class="about-slide-for">
+					<span class="about-slide-bg" style="background-image: url(img/photo_studia.jpg);"></span>
+					<span class="about-photo" style="background-image: url(img/photo-about.png);"></span>
+					<div class="about-info">
+						<div class="name">Дэвид стэтхэм</div>
+						<div class="prof">Актёр</div>
+						<p>Медитация очень важное занятие в жизни. Если вы ещё не задумывались об этом, вы зря тратите время!</p>
+					</div>
+				</div>
+				<div class="about-slide-for">
+					<span class="about-slide-bg" style="background-image: url(img/bg-bottom.jpg);"></span>
+					<span class="about-photo" style="background-image: url(img/photo-about.png);"></span>
+					<div class="about-info">
+						<div class="name">Дэвид стэтхэм</div>
+						<div class="prof">Актёр</div>
+						<p>Медитация очень важное занятие в жизни. Если вы ещё не задумывались об этом, вы зря тратите время!</p>
+					</div>
+				</div>
+				<div class="about-slide-for">
+					<span class="about-slide-bg" style="background-image: url(img/photo_studia.jpg);"></span>
+					<span class="about-photo" style="background-image: url(img/photo-about.png);"></span>
+					<div class="about-info">
+						<div class="name">Дэвид стэтхэм</div>
+						<div class="prof">Актёр</div>
+						<p>Медитация очень важное занятие в жизни. Если вы ещё не задумывались об этом, вы зря тратите время!</p>
+					</div>
+				</div>
+				<div class="about-slide-for">
+					<span class="about-slide-bg" style="background-image: url(img/bg-bottom.jpg);"></span>
+					<span class="about-photo" style="background-image: url(img/photo-about.png);"></span>
+					<div class="about-info">
+						<div class="name">Дэвид стэтхэм</div>
+						<div class="prof">Актёр</div>
+						<p>Медитация очень важное занятие в жизни. Если вы ещё не задумывались об этом, вы зря тратите время!</p>
+					</div>
+				</div>
+			</div>
+			<div class="about-slider-nav">
+				<div class="about-slide-nav" style="background-image: url(img/photo_studia.jpg);"></div>
+				<div class="about-slide-nav" style="background-image: url(img/bg-bottom.jpg);"></div>
+				<div class="about-slide-nav" style="background-image: url(img/photo_studia.jpg);"></div>
+				<div class="about-slide-nav" style="background-image: url(img/bg-bottom.jpg);"></div>
+				<div class="about-slide-nav" style="background-image: url(img/photo_studia.jpg);"></div>
+				<div class="about-slide-nav" style="background-image: url(img/bg-bottom.jpg);"></div>
+			</div>
+		</section>
+		<!-- partners -->
+		<section class="partners">
+			<span class="section-name">партнёры и Тренеры</span>
+			<div class="partners-slider-for">
+				<div class="partners-slide-for">
+					<div class="partners-slide-item">
+						<div class="partner-slide-bg" style="background-image: url(img/partner-slide-bg.jpg);"></div>
+						<img class="partners-slide-img" src="img/trener-photo-1.png" alt="">
+						<div class="partners-slide-info">
+							<div class="title">Меня зовут</div>
+							<div class="name">Александр Бауров</div>
+							<div class="text-wrap">
+								<p>За счет опыта в разработке программ по снятию стресса, напряжения и усталости.</p>
+								<p>В основу, которых легли интенсивные, медитирующие и релаксирующие практики решающие проблемы уже в течении 30 минут.</p>
+							</div>
+							<a href="schedule.html" class="btn-black"><span>Записаться к Александру</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="partners-slide-for">
+					<div class="partners-slide-item">
+						<div class="partner-slide-bg" style="background-image: url(img/partner-slide-bg.jpg);"></div>
+						<img class="partners-slide-img" src="img/trener-photo-2.png" alt="">
+						<div class="partners-slide-info">
+							<div class="title">Меня зовут</div>
+							<div class="name">Галина Белякова</div>
+							<div class="text-wrap">
+								<p>За счет опыта в разработке программ по снятию стресса, напряжения и усталости.</p>
+								<p>В основу, которых легли интенсивные, медитирующие и релаксирующие практики решающие проблемы уже в течении 30 минут.</p>
+							</div>
+							<a href="schedule.html" class="btn-black"><span>Записаться к Галине</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="partners-slide-for">
+					<div class="partners-slide-item">
+						<div class="partner-slide-bg" style="background-image: url(img/partner-slide-bg.jpg);"></div>
+						<img class="partners-slide-img" src="img/trener-photo-3.png" alt="">
+						<div class="partners-slide-info">
+							<div class="title">Меня зовут</div>
+							<div class="name">Тофик Сулйманов</div>
+							<div class="text-wrap">
+								<p>За счет опыта в разработке программ по снятию стресса, напряжения и усталости.</p>
+								<p>В основу, которых легли интенсивные, медитирующие и релаксирующие практики решающие проблемы уже в течении 30 минут.</p>
+							</div>
+							<a href="schedule.html" class="btn-black"><span>Записаться к Тофику</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- registration -->
+		<section class="registration">
+			<span class="section-name">Регистрация</span>
+			<div class="registration-cover">
+				<h2>Как будет выглядеть наша первая встреча:</h2>
+				<ul class="registration-wrap">
+					<li class="item1 active">
+						<div class="registration-info">
+							<span class="number">01</span>
+							<h6>регистрируйся в личном кабинете</h6>
+							<p>На сайте или в мобильном приложении.</p>
+							<h5><span>Скидка 15% на месячный абонемент</span> при заказе с телефона</h5>
+						</div>
+						<img src="img/phone.png" alt="">
+					</li>
+					<li class="item2">
+						<div class="registration-info">
+							<span class="number">02</span>
+							<h6>Производи оплату с карты или через платёжные системы</h6>
+							<p>На сайте или в мобильном приложении.</p>
+							<h5>В личном кабенете появится статус <span>«Оплачено»</span></h5>
+						</div>
+						<img src="img/phone.png" alt="">
+					</li>
+					<li class="item3">
+						<div class="registration-info">
+							<span class="number">03</span>
+							<h6>Выбирай программу с учётом настроения, состояния и временных ограничений</h6>
+							<ul>
+								<li>
+									<span class="title-tab active">Направление динамики</span>
+									<p>Высокоинтенсивные тренировки, работа с собственным весом, танцевальные программы.</p>
+								</li>
+								<li>
+									<span class="title-tab">Направление релаксационных программ</span>
+									<p>Высокоинтенсивные тренировки, работа с собственным весом, танцевальные программы.</p>
+								</li>
+								<li>
+									<span class="title-tab">Специальные программы</span>
+									<p>Высокоинтенсивные тренировки, работа с собственным весом, танцевальные программы.</p>
+								</li>
+								<li>
+									<span class="title-tab">Направление короткого эффективного сна</span>
+									<p>Высокоинтенсивные тренировки, работа с собственным весом, танцевальные программы.</p>
+								</li>
+							</ul>
+						</div>
+						<img src="img/phone.png" alt="">
+					</li>
+					<li class="item4">
+						<div class="registration-info">
+							<span class="number">04</span>
+							<h6>Бронируй время</h6>
+							<p>Выбери программу и забронируй время посещения на сайте, в мобильном приложении или по телефону.</p>
+						</div>
+						<img src="img/phone.png" alt="">
+					</li>
+				</ul>
+				<div class="btn-cover">
+					<a href="#" class="btn-white"><span>Записаться на пробное посещение</span></a>
+				</div>
+			</div>
+		</section>
+		<!-- certificates -->
+		<section class="certificates tab-wrap">
+			<span class="section-name">Сертификаты</span>
+			<div class="certificate-left">
+				<h2>Клубные карты</h2>
+				<ul class="cert-btn-wrap">
+					<li rel="tab1" class="item item1">«Полный порядок»</li>
+					<li rel="tab2" class="item item2">«Дружу с телом»</li>
+					<li rel="tab3" class="item item3">«Разовое посещение»</li>
+				</ul>
+				<a href="tariffs.html" class="btn-gold">Показать все</a>
+			</div>
+			<div class="certificate-right">
+				<div class="cert-item tab tab1">
+					<ul class="cert-btn-wrap">
+						<li rel="tab1" class="item item1">«Полный порядок»</li>
+					</ul>
+					<div class="cert-item-cover">
+						<img class="cert-img" src="img/cert-1.png" alt="">
+						<div class="cert-info">
+							<div class="cert-name">Абонемент</div>
+							<h6>«Полный порядок»</h6>
+							<p>Это абонемент для тех кто хочет почувствовать вкус к жизни. С помощью этой клубной карты можно попасть на любые тренировки и интенсивы.</p>
+							<span class="number-visits">20 посещений</span>
+							<a href="tariff-detail.html" class="btn-black"><span>Узнать подробности</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="cert-item tab tab2">
+					<ul class="cert-btn-wrap">
+						<li rel="tab2" class="item item2">«Дружу с телом»</li>
+					</ul>
+					<div class="cert-item-cover">	
+						<img class="cert-img" src="img/cert-1.png" alt="">
+						<div class="cert-info">
+							<div class="cert-name">Абонемент</div>
+							<h6>«Дружу с телом»</h6>
+							<p>Это абонемент для тех кто хочет почувствовать вкус к жизни. С помощью этой клубной карты можно попасть на любые тренировки и интенсивы.</p>
+							<span class="number-visits">20 посещений</span>
+							<a href="tariff-detail.html" class="btn-black"><span>Узнать подробности</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="cert-item tab tab3">
+					<ul class="cert-btn-wrap">
+						<li rel="tab3" class="item item3">«Разовое посещение»</li>
+					</ul>
+					<div class="cert-item-cover">
+						<img class="cert-img" src="img/cert-1.png" alt="">
+						<div class="cert-info">
+							<div class="cert-name">Абонемент</div>
+							<h6>«Разовое посещение»</h6>
+							<p>Это абонемент для тех кто хочет почувствовать вкус к жизни. С помощью этой клубной карты можно попасть на любые тренировки и интенсивы.</p>
+							<span class="number-visits">20 посещений</span>
+							<a href="tariff-detail.html" class="btn-black"><span>Узнать подробности</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="tariffs.html" class="btn-gold btn-gold-mobile">Показать все</a>
+		</section>
+		<!-- question -->
+		<section class="question">
+			<span class="section-name">Тест</span>
+			<div class="question-info-title">
+				<h2>Не можешь выбрать?</h2>
+				<p class="question-slogan">Ответь на <span>4 вопроса</span>, и мы подберём уникальную программу</p>
+			</div>
+			<div class="question-title-form">
+				<h2>Наш совет</h2>
+				<p class="question-slogan">Малоподвижный образ жизни медленно убивает наше здоровье. Сочетайте <span>короткие силовые тренировки</span> (High Intensive Strong/Stretch, TRX) в удобные для вас часы с возможностью размяться днём (программы «не переодеваясь»). Если днём чувствуете сильную усталость – <span>приходите на боди-комбат.</span> Да и <span>танцы</span> никто не отменял.</p>
+			</div>
+			<div class="question-bg-wrap">
+				<img class="question-bg-img question-bg-1" src="img/question-1.png" alt="">
+				<img class="question-bg-img question-bg-2" src="img/question-2.png" alt="">
+				<img class="question-bg-img question-bg-3" src="img/question-3.png" alt="">
+				<img class="question-bg-img question-bg-4" src="img/question-4.png" alt="">
+				<img class="question-bg-img question-bg-5" src="img/question-5.png" alt="">
+			</div>
+			<form>
+				<div class="question-wrap">
+					<div class="question-item step1">
+						<input class="question-inp" type="hidden">
+						<ul class="question-btn-list">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<p class="question-title">Как дела с настроением?</p>
+						<ul class="question-list">
+							<li>я люблю свою работу, но в последнее время мне трудно начать новое дело, тяну до последнего</li>
+							<li>в последнее время меня часто и без достаточных оснований раздражают окружающие</li>
+							<li>часто чувствую апатию, равнодушие, нет интереса к жизни</li>
+							<li>у меня не получается делать так много, как я хочу и обычно могу, личный КПД падает</li>
+							<li>просыпаюсь в отличном настроении, но в течение рабочего дня оно стабильно ухудшается без видимых причин</li>
+							<li>настроение отличное!</li>
+						</ul>
+					</div>
+					<div class="question-item step2">
+						<input class="question-inp" type="hidden">
+						<ul class="question-btn-list">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<p class="question-title">Как дела со сном?</p>
+						<ul class="question-list">
+							<li>от навязчивых мыслей мне бывает трудно заснуть вечером</li>
+							<li>не смотря на усталость, я просыпаюсь очень рано и начинаю думать о предстоящих делах</li>
+							<li>в течение дня часто чувствую сонливость, несмотря на то, что сплю достаточно</li>
+							<li>я высыпаюсь, но в течение дня мне часто бывает трудно сосредоточиться, я слишком медленно думаю</li>
+							<li>я сплю достаточно, но просыпаюсь не отдохнувшим</li>
+							<li>все в порядке, сплю отлично</li>
+						</ul>
+					</div>
+					<div class="question-item step3">
+						<input class="question-inp" type="hidden">
+						<ul class="question-btn-list">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<p class="question-title">Как у вас с физическими ощущениями в течение рабочего дня?</p>
+						<ul class="question-list">
+							<li>регулярно болит и плохо поворачивается шея, хотя заболеваний позвоночника нет</li>
+							<li>часто бывают головные боли и мигрени</li>
+							<li>беспокоят боли в спине</li>
+							<li>болят коленные суставы</li>
+							<li>ноги сильно отекают к вечеру</li>
+							<li>часто «скачет» давление</li>
+							<li>бывают сердцебиения, одышка</li>
+							<li>здоров, регулярно занимаюсь спортом</li>
+						</ul>
+					</div>
+					<div class="question-item step4">
+						<input class="question-inp" type="hidden">
+						<ul class="question-btn-list">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<p class="question-title">Какой тип нагрузок вы предпочитаете?</p>
+						<ul class="question-list">
+							<li>предпочитаю как следует нагружать организм физически</li>
+							<li>люблю двигаться, но без силовых нагрузок</li>
+							<li>предпочитаю умеренные и низкие нагрузки</li>
+							<li>я – человек всесторонний, выбор зависит от настроения</li>
+						</ul>
+					</div>
+					<div class="question-item step-last">
+						<ul class="form-list">
+							<li class="phone"><input type="tel" name="phones" class="user-phone" placeholder="+7 (___) ___-__-__"></li>
+							<li class="name"><input type="text" name="names" placeholder="Как к вам обращаться?"></li>
+							<li class="terms-wrap">
+								<p>Нажимая кнопку «Записаться» вы даёте согласие на обработку ваших персональных данных.</p>
+								<a href="">Политика конфидециальности</a>
+							</li>
+							<li class="btn-white"><span><input type="submit" value="Записаться"></span></li>
+						</ul>
+					</div>
+				</div>
+			</form>
+			<div class="question-specialist">
+				<div class="name">Марина Елисеева</div>
+				<div class="prof">Ведущий тренер «Зоны комфорта»</div>
+			</div>
+		</section>
+
+		<!-- s-faq -->
+		<section class="s-faq">
+			<img class="question-bg-img active" src="img/faq-1.png" alt="">
+			<span class="section-name">FAQ</span>
+			<h2>Остались вопросы?</h2>
+			<p class="faq-slogan">Я отвечу на <span>любые из них</span></p>
+			<ul class="faq-wrap">
+				<li>
+					<span class="number">01</span>
+					<div class="title">Обязательно ли бронировать тренировку?</div>
+					<p>Да, у нас все тренировки нужно бронировать заранее. Это сделано для того, чтобы вы не оказались в перегруженном зале, и тренер могут уделить внимание каждому.</p>
+				</li>
+				<li>
+					<span class="number">02</span>
+					<div class="title">Что делать, если я забронировал тренировку, но обстоятельства изменились и прийти я не смогу?</div>
+					<p>Вы можете снять бронь через мобильное приложение. Сделать это нужно не позже, чем за 30 минут до тренировки.</p>
+				</li>
+				<li>
+					<span class="number">03</span>
+					<div class="title">Могу ли я приостановить действие абонемента?</div>
+					<p>Да, сроки приостановки каждого из видов абонементов указаны в разделе «Абонементы».</p>
+				</li>
+				<li>
+					<span class="number">04</span>
+					<div class="title">Есть ли возможность принять душ?</div>
+					<p>Да, конечно, студия оборудована душевыми. Мы также предоставляем возможность пользоваться влажными нагретыми полотенцами.</p>
+				</li>
+				<li>
+					<span class="number">05</span>
+					<div class="title">Могу ли я взять несколько занятий подряд?</div>
+					<p>Расписание сделано так, что вы можете взять две тренировки подряд (за исключением ЕМС), сочетая динамичную тренировку с растяжкой или медитацией. Больше 2-х занятий подряд мы не рекомендуем, так как нагрузка может оказаться слишком высокой.</p>
+				</li>
+			</ul>
+			<div class="faq-specialist">
+				<div class="name">Марина Елисеева</div>
+				<div class="prof">Ведущий тренер «Зоны комфорта»</div>
+				<a href="#" class="btn-white"><span>Задать вопрос</span></a>
+			</div>
+		</section>
+		<!-- contacts -->
+		<section class="contacts">
+			<span class="section-name">Контакты</span>
+			<div class="contact-left">
+				<span class="contact-left-bg" style="background-image: url(img/bg-contacts.jpg);"></span>
+				<div class="contact-info-wrap">
+					<ul class="contact-info">
+						<li>
+							<span>Москва</span>
+							<p>Пресненская набережная, д. 12, 53 этаж</p>
+						</li>
+						<li>
+							<span>Время работы</span>
+							<p>с 8:00 до 22:00</p>
+						</li>
+						<li>
+							<span>Телефон</span>
+							<p><a href="tel:88006655433">8 800 665-54-33</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="contact-right">
+				<div id="map" class="map"></div>
+			</div>
+		</section>
+		<!-- s-final -->
+		<section class="s-final" style="background-image: url(img/bg-bottom.jpg);">
+			<div class="final-left">
+				<ul class="final-left-list">
+					<li><a href="about.html">О клубе</a></li>
+					<li><a href="#">Политика конфиденциальности</a></li>
+					<li><a href="#">Соглашение на обработку персональных данных</a></li>
+				</ul>
+				<div class="copyright-wrap">
+					<a href="#"><img class="design" src="img/marketing-time.svg" alt=""></a>
+					<p>© 2018, ООО «Зона комфорта»</p>
+				</div>
+			</div>
+			<div class="final-right">
+				<div class="final-item">
+					<h2>Скачай мобильное приложение</h2>
+					<div class="final-item-market">
+						<img class="final-phone-img" src="img/phone-bottom.png" alt="">
+						<ul>
+							<li><a href="#"><img src="img/app-store.png" alt=""></a></li>
+							<li><a href="#"><img src="img/google-play.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- popup -->
+		<div class="popup popup-action1">
+			<img src="img/popup-img.png" alt="" class="popup-img">
+			<div class="popup-close">закрыть</div>
+			<div class="popup-wrap">
+				<form>
+					<h2>Здравствуйте!<br>Меня зовут Анна</h2>
+					<p class="popup-slogan">Оставьте свой номер телефона, я позвоню вам и расскажу все подробности.</p>
+					<ul class="form-list">
+						<li class="phone"><input type="tel" name="phones" class="user-phone" placeholder="+7 (___) ___-__-__"></li>
+						<li class="name"><input type="text" name="names" placeholder="Как к вам обращаться?"></li>
+						<li class="terms-wrap">
+							<p>Нажимая кнопку «Записаться» вы даёте согласие на обработку ваших персональных данных.</p>
+							<a href="">Политика конфидециальности</a>
+						</li>
+						<li class="btn-white"><span><input type="submit" value="Записаться"></span></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+
+		<!-- SCRIPT	-->
+		<script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script src="js/main-scripts.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/datepicker-ru.js"></script>
+		<script src="js/scripts.js"></script>
+
+		<script>
+			/*--------------------	map	--------------------*/
+			ymaps.ready(function () {
+				var myMap = new ymaps.Map('map', {
+					center: [55.762071145607985,37.53737317857352],
+					zoom: 13
+				}, {
+					searchControlProvider: 'yandex#search'
+				}),
+				myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: 'img/bg-point.png',
+					iconImageSize: [293, 390],
+					iconImageOffset: [-130, -256],
+				});
+
+				myMap.geoObjects.add(myPlacemark);
+
+				myGeoObject = new ymaps.GeoObject({
+					geometry: {
+						type: "Point",
+						coordinates: [55.75098803566148,37.53694402513112]
+					}
+				});
+				myMap.geoObjects.add(myPlacemark);
+				myMap.controls
+				.remove('geolocationControl')
+				.remove('fullscreenControl')
+				.remove('typeSelector')
+				.remove('searchControl')
+				.remove('trafficControl')
+				.remove('rulerControl')
+				.remove('zoomControl');
+				myMap.behaviors.disable([
+					'scrollZoom',
+					'dblClickZoom'
+					]);
+				setTimeout(function(){
+				$('.ymaps-2-1-69-image').append('<div class="contact-map-info"><h2>Наш адрес</h2><span>Москва</span><p>Пресненская набережная, д. 12, 53 этаж</p></div>');
+				}, 4000);
+			});
+		</script>
+
+	</body>
+</html>
